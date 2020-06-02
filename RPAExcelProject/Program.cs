@@ -5,10 +5,11 @@ namespace RPAExcelProject
 {
     class Program
     {
+        
+        //--------------- OLD SMKKMS ROBOT ---------------
+        /*
         static void Main(string[] args)
         {
-
-
             if(args.Length >0 && args[0] == "download")
             {
                 new ReportDownloader().Start();
@@ -22,8 +23,7 @@ namespace RPAExcelProject
                 RobotManager.RunCfRobot();
                 Console.ReadKey();
             }
-            
-           
         }
+        */
     }
 }
